@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shades Of Pink</title>
+    <script>
+      function getRange(){
+        var result=document.getElementById("myRange").value;
+        alert(result);
+      }
+    </script>
+    <style media="screen">
+    body{
+      background: #ffe4e1;
+      margin: 0 auto;
+    }
+    .week-table{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .rate-week{
+        padding: 0;
+        text-align: center;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="week-table">
+      <table border="1">
+        <tr> <!--row 1-->
+          <th>Day/Time</th>
+          <th>6am-7am</th>
+          <th>7am-10am</th>
+          <th>10am-11am</th>
+          <th>11am-12pm</th>
+          <th>12pm</th>
+          <th>1pm-3pm</th>
+          <th>3pm-5pm</th>
+          <th>5pm-7pm</th>
+          <th>8pm-10pm</th>
+          <th>10pm-10:30pm</th>
+        </tr>
+
+        <tr> <!--row 2-->
+          <td>Monday</td>
+          <td>Wake up > Stretching > Breakfast</td>
+          <td>Online class</td>
+          <td>Get ready</td>
+          <td>Online Class</td>
+          <td>Lunch > Chill</td>
+          <td>Online class > Assignments</td>
+          <td>Assignments</td>
+          <td>KDrama > Cleaning > Dance Practice</td>
+          <td>Entertainment</td>
+          <td>Get ready for sleep!</td>
+        </tr>
+
+        <tr> <!--row 3-->
+          <td>Tuesday</td>
+          <td>Wake up > Stretching > Breakfast</td>
+          <td>Online class</td>
+          <td>Get ready</td>
+          <td>Online Class</td>
+          <td>Lunch > Chill</td>
+          <td>Online class > Assignments</td>
+          <td>Assignments</td>
+          <td>KDrama > Cleaning > KDrama</td>
+          <td>Entertainment</td>
+          <td>Get ready for sleep!</td>
+        </tr>
+
+        <tr> <!--row 4-->
+          <td>Wednesday</td>
+          <td>Wake up > Stretching > Breakfast</td>
+          <td>Online class</td>
+          <td>Get ready</td>
+          <td>Online Class</td>
+          <td>Lunch > Chill</td>
+          <td>Online class > Assignments</td>
+          <td>Assignments</td>
+          <td>KDrama > Cleaning > Dance Practice</td>
+          <td>Entertainment</td>
+          <td>Get ready for sleep!</td>
+        </tr>
+
+        <tr> <!--row 5-->
+          <td>Thursday</td>
+          <td>Wake up > Stretching > Breakfast</td>
+          <td>Online class</td>
+          <td>Get ready</td>
+          <td>Online Class</td>
+          <td>Lunch > Chill</td>
+          <td>Online class > Assignments</td>
+          <td>Assignments</td>
+          <td>KDrama > Cleaning > KDrama</td>
+          <td>Entertainment</td>
+          <td>Get ready for sleep!</td>
+        </tr>
+
+        <tr> <!--row 6-->
+          <td>Friday</td>
+          <td>Wake up > Stretching > Breakfast</td>
+          <td>Laundry > Assignments</td>
+          <td>Assignments</td>
+          <td>Assignments</td>
+          <td>Lunch > Chill</td>
+          <td>Assignments</td>
+          <td>Assignments</td>
+          <td>KDrama > Cleaning > KDrama</td>
+          <td>Entertainment</td>
+          <td>Get ready for sleep!</td>
+        </tr>
+
+        <tr> <!--row 7-->
+          <td>Saturday</td>
+          <td>Wake up > Stretching > Breakfast</td>
+          <td>Online class</td>
+          <td>Get ready</td>
+          <td>Online Class</td>
+          <td>Lunch > Chill</td>
+          <td>Online class > Assignments</td>
+          <td>Assignments</td>
+          <td>KDrama > Cleaning > KDrama</td>
+          <td>Entertainment</td>
+          <td>Get ready for sleep!</td>
+        </tr>
+
+        <tr> <!--row 8-->
+          <td>Sunday</td>
+          <td>Wake up > Stretching > Breakfast</td>
+          <td>Laundry > Assignments</td>
+          <td>Assignmentsy</td>
+          <td>Assignments</td>
+          <td>Lunch > Chill</td>
+          <td>Assignments</td>
+          <td>Assignments</td>
+          <td>KDrama > Cleaning > KDrama</td>
+          <td>Entertainment</td>
+          <td>Get ready for sleep!</td>
+        </tr>
+
+        <div class="rate-week">
+          <label>Rate Your Week!</label>
+          <br>
+          <input type="range" id="myRange"/>
+          <br>
+          <input type="button" value="Get the value" onclick="getRange()"/>
+        <br/>
+
+        </div>
+      </table>
+    </div>
+  </body>
+</html>
